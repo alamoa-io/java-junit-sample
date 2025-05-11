@@ -20,5 +20,9 @@ public class SampleCode {
     public static void greet(String name) {
         String message = "Hello, " + name + "!";
         System.out.println(message);
+        test();
+    }
+    public static void test(){
+        System.out.println("test");
     }
 }
